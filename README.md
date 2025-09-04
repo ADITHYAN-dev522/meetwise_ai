@@ -21,7 +21,5 @@ MeetWise AI ingests meeting transcripts and automatically:
 USE THE OFFICAL API KEYS IN THE .env FOR THE PROPER FUNCTIONING OF THE PROJECT OR THE STUBBED DATA WOULD BE SHOWN
 LOG_LEVEL=info
 
-# Database
-DATABASE_URL=sqlite:///./meetwise.db
 
 
