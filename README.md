@@ -17,30 +17,8 @@ MeetWise AI ingests meeting transcripts and automatically:
 - Run server: uvicorn main:app --reload --port 8000.
 - Use the /docs OpenAPI UI to exercise endpoints, or call via curl/Postman.
 
-## .env.example
-# Descope
-DESCOPE_PROJECT_ID=your_descope_project_id
-DESCOPE_MANAGEMENT_KEY=your_descope_management_key
 
-# Google
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-GOOGLE_API_KEY=your_google_api_key
-
-# Slack
-SLACK_BOT_TOKEN=xoxb-your-bot-token
-SLACK_SIGNING_SECRET=your-signing-secret
-
-# Notion
-NOTION_API_KEY=your_notion_api_key
-NOTION_DATABASE_ID=your_notion_database_id
-
-# OpenAI
-OPENAI_API_KEY=your_openai_api_key
-
-# App
-APP_ENV=development
-APP_PORT=8000
+USE THE OFFICAL API KEYS IN THE .env FOR THE PROPER FUNCTIONING OF THE PROJECT OR THE STUBBED DATA WOULD BE SHOWN
 LOG_LEVEL=info
 
 # Database
